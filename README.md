@@ -1,16 +1,31 @@
-# React + Vite
+ Product Showcase App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive React application to display products with features like **Premium Product**, **Featured Badge**, stock status, and conditional image rendering.
 
-Currently, two official plugins are available:
+ 📝 Features
+ 
+- Display a list of products with:
+  - Product name, price, and image
+  - Featured badge ⭐ for highlighted products
+  - Premium Product label ✨ for products above a chosen price
+  - Stock availability status
+- Conditional rendering:
+  - Images are only displayed if the image URL exists
+  - "No products available at the moment" message if the product list is empty
+- Responsive and professional card layout
+- Built with **React** and **Vite**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Installation
+  
+Clone the repository
+Navigate to the project folder
+Install dependencies
+Start the development server
 
-## React Compiler
+  Technologies used
+  
+React.js
+JavaScript
+CSS3
+HTML5
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
